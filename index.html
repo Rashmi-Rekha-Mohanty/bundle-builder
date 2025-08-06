@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bundle Builder</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <main class="container">
+    <section class="product-grid" id="productGrid"></section>
+    <aside class="bundle-sidebar" id="bundleSidebar">
+      <div class="progress">
+        <div class="progress-bar" id="progressBar" style="width: 0%"></div>
+        <span id="progressText">0/3 added</span>
+      </div>
+      <ul class="bundle-list" id="bundleList"></ul>
+      <div class="summary">
+        <p id="discountText"></p>
+        <p><strong>Subtotal:</strong> $<span id="subtotal">0.00</span></p>
+        <button id="ctaButton" disabled>Add Bundle</button>
+      </div>
+    </aside>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
